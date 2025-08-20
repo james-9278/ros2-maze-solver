@@ -24,6 +24,7 @@ setup(
     entry_points={
         'console_scripts': [
             'launch_maze_world = maze_solver.launch_maze_world:main',
+            'solver_node = maze_solver.solver_node:main'
         ],
     },
 )
